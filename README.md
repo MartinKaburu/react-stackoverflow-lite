@@ -35,7 +35,7 @@ yarn run web
 </pre>
 
 ## 👋 Authors
-- [Arnold M. Osoro](https://github.com/mmosoroohh)
+- [Martin Kaburu](https://github.com/MartinKaburu)
 
 ## 👊 Acknowledgement
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
