@@ -5,7 +5,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/mmosoroohh/Frontend_stackoverflow.git
+git clone https://github.com/MartinKaburu/react-stackoverflow-lite.git
 
 # Install dependencies
 yarn install
