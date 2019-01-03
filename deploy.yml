@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: jenkinsdemo
+spec:
+  template:
+    metadata:
+      labels:
+        app: jenkinsdemo
+    spec:
+      containers:
+        - name: jenkinsdemo
+          image: martinkaburu/jenkinsdemo
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 3000
+            name: http

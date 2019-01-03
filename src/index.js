@@ -1,5 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/Landingpage/App';
+import './index.css';
+import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './Home';
+import 'react-bootstrap';
+import Smart from './Smart';
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render((
+  <BrowserRouter>
+    <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route path='/smart' component={Smart}/>
+    </Switch>
+  </BrowserRouter>
+  ), document.getElementById('root'))
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();

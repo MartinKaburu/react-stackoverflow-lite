@@ -1,0 +1,41 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+}
+
+.outer{
+  position: fixed;
+  display:block;
+  width: 100%;
+  top: 0;
+  left:0;
+  bottom: 0;
+  background-color: black;
+}
+
+.banner, .banner2{
+  width:80%;
+  display: block;
+   margin: 0 auto;
+   margin-top: 25%;
+   color: white;
+}
+
+.banner2{
+  color: orange;
+  margin-top: 10% !important;
+}
+
+.link{
+  color: orange;
+}
+
+.link2{
+  color: white;
+}
+
+.data{
+  display: block;
+  margin: 0 auto;
+  color: white;
+  width:60%;
+}
